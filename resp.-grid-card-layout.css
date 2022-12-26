@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+h1 {
+  background: linear-gradient(to right, #7b4397, #dc2430);
+  text-align: center;
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.grid-container {
+  background: linear-gradient(
+    to right,
+    #7b4397,
+    #dc2430
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 95%;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px whitesmoke;
+}
+
+.card {
+  background: rgba(208, 133, 187, 0.231);
+  border-radius: 10px;
+  /* text-align:center; */
+  display: grid;
+  /* place-items: center; */
+  justify-items: center;
+  /* align-items:start;  */
+  align-content: start;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.card-info-div {
+  text-align: center;
+}
+
+footer {
+  background: linear-gradient(to right, #7b4397, #dc2430);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px auto;
+  width: 95%;
+}
+
+a {
+}
